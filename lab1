@@ -1,6 +1,13 @@
 #include <stdio.h>
 int main(){
-	int h,m,s;
-	scanf("%d:%d:%d",&h,&m,&s);
-	printf("hour:%d\nminute:%d\nsecond:%d",h,m,s);
+	int oj1,oj2,oj3;
+	scanf("%d",&oj1);
+	float fs1 = (float)oj1*0.95;
+	printf("%f\n",fs1);
+	scanf("%d",&oj2);
+	float fs2 = (float)(oj1+oj2)*0.85;
+	printf("%f\n",fs2);
+	scanf("%d",&oj3);
+	float fs3 = (float)(oj1+oj2+oj3)*0.70;
+	printf("%f\n",fs3);
 }

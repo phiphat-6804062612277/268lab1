@@ -4,10 +4,13 @@ int main(){
 	scanf("%d",&oj1);
 	float fs1 = (float)oj1*0.95;
 	printf("%f\n",fs1);
+	printf("%f\n",(fs1*0.93));
 	scanf("%d",&oj2);
 	float fs2 = (float)(oj1+oj2)*0.85;
 	printf("%f\n",fs2);
+	printf("%f\n",(fs2*0.93));
 	scanf("%d",&oj3);
 	float fs3 = (float)(oj1+oj2+oj3)*0.70;
 	printf("%f\n",fs3);
+	printf("%f\n",(fs3*0.93));
 }
